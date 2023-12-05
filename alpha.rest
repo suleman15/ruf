@@ -1,0 +1,30 @@
+GET http://localhost:5001/person
+
+
+###
+POST http://localhost:5001/person
+Content-Type: application/json
+
+{
+    "username": "suleman",
+    "role": "ADMIN",
+    "email": "sulemanahmed2704@"
+}
+
+###
+PATCH  http://localhost:5001/person
+Content-Type: application/json
+
+{
+    "id": "656f2bb32ba79e604b3ed458",
+    "updatedPerson": {
+        "username": "suleman5",
+    "role": "ADMIN",
+    "email": "sulemanahmed2704@"
+    }
+}
+
+###
+
+
+DELETE  http://localhost:5001/person
